@@ -1,59 +1,42 @@
-## Introduction
+## Unity and Visual Studio Code
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Unity uses the C# programming language, which is used by professional software developers. To write code for Unity you will need to add an external code editor. 
 
-### What you will make
+Many different code editors can be used, and Unity recommends the full Community edition of Visual Studio, however this requires another account. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Instead we would recommend [Visual Studio Code](https://code.visualstudio.com/), a free lightweight code editor from Microsoft that you can use to write code in almost any language, including C# with Unity.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+--- task ---
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Download and install [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+--- /task ---
 
-+ A computer or tablet capable of running Scratch 3
+Once you install the Visual Studio code editor you can add functionality using **Extensions**. 
 
-### Software
+![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+The two we recommend are: 
+1. **C#** by Microsoft - this gives you code completion for the C# language
+2. **Unity Code Snippets** by Kleber Silva - will give you specific completions for Unity
 
-### Downloads
+You can find these by opening the extensions menu is the left side bar (highlighted above) and typing the names into the search bar at the top, you can then click on the extension and click the blue **Install** button under the name. 
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+--- task ---
 
---- /collapse ---
+Install the two recommended extensions, C# and Unity Code snippets.
 
---- collapse ---
----
-title: What you will learn
----
+--- /task ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+--- task --- 
 
---- /collapse ---
+Open Unity. Click on **Edit** and then choose **Preferences** from the menu.
 
---- collapse ---
----
-title: Additional information for educators
----
+In the menu on the left, select **External Tools** and in the drop-down menu for **External Script Editor** choose **Visual Studio Code**.
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+![Preferences menu with Visual Studio Code chosen as the script editor.](images/unity-editor-select.png)
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- /task ---
 
---- /collapse ---
+Further information: 
++ [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
