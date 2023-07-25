@@ -6,4 +6,4 @@ listed: false
 copyedit: false
 last_tested: "2023-07-24"
 steps:
-  - title: Unity and Visual Studio
+  - title: Unity and Visual Studio Code
