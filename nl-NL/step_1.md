@@ -1,42 +1,42 @@
-## Unity and Visual Studio Code
+## Unity en Visual Studio-code
 
-Unity uses the C# programming language, which is used by professional software developers. To write code for Unity you will need to add an external code editor.
+Unity gebruikt de programmeertaal C#, die wordt gebruikt door professionele software-ontwikkelaars. Om code te schrijven voor Unity moet je een externe code-editor toevoegen.
 
-Many different code editors can be used, and Unity recommends the full Community edition of Visual Studio, however this requires another account.
+Er kunnen veel verschillende code-editors worden gebruikt en Unity raadt de volledige Community-editie van Visual Studio aan, maar hiervoor is een extra account vereist.
 
-Instead we would recommend [Visual Studio Code](https://code.visualstudio.com/), a free lightweight code editor from Microsoft that you can use to write code in almost any language, including C# with Unity.
-
---- task ---
-
-Download and install [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
-
---- /task ---
-
-Once you install the Visual Studio code editor you can add functionality using **Extensions**.
-
-![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
-
-The two we recommend are:
-1. **C#** by Microsoft - this gives you code completion for the C# language
-2. **Unity Code Snippets** by Kleber Silva - will give you specific completions for Unity
-
-You can find these by opening the extensions menu is the left side bar (highlighted above) and typing the names into the search bar at the top, you can then click on the extension and click the blue **Install** button under the name.
+In plaats daarvan raden we [Visual Studio Code](https://code.visualstudio.com/) aan, een gratis code-editor van Microsoft die je kunt gebruiken om code te schrijven in bijna elke taal, inclusief C# met Unity.
 
 --- task ---
 
-Install the two recommended extensions, C# and Unity Code snippets.
+Download en installeer [Visual Studio Code](https://code.visualstudio.com/) voor jouw besturingssysteem.
+
+--- /task ---
+
+Nadat je de Visual Studio-code-editor hebt geïnstalleerd, kun je functionaliteit toevoegen met behulp van **Extensions** (extensies of uitbreidingen).
+
+![De zijbalk van Visual Studio Code, het extensiesymbool (een vierkant opgesplitst in 4 secties, met de linkerbovenhoek enigszins gescheiden) is gemarkeerd, en de twee extensies C#- en Unity Code-snippets worden ook gemarkeerd.](images/VSCode-extensions.png)
+
+De twee die wij aanbevelen zijn:
+1. **C#** van Microsoft - dit geeft je code-aanvulling voor de C#-taal
+2. **Unity Code Snippets** door Kleber Silva - geeft je specifieke aanvullingen voor Unity
+
+Je kan deze vinden door het extensiemenu te openen in de linkerzijbalk (hierboven gemarkeerd) en de namen in de zoekbalk bovenaan te typen, je kunt vervolgens op de extensie klikken en op de blauwe knop **Installeer** onder de naam klikken.
+
+--- task ---
+
+Installeer de twee aanbevolen extensies, C# en Unity Code snippets.
 
 --- /task ---
 
 --- task ---
 
-Open Unity. Click on **Edit** and then choose **Preferences** from the menu.
+Open Unity. Klik op **Edit** en kies vervolgens **Preferences** in het menu.
 
-In the menu on the left, select **External Tools** and in the drop-down menu for **External Script Editor** choose **Visual Studio Code**.
+Selecteer in het menu aan de linkerkant **External Tools** en kies in het vervolgkeuzemenu voor **External Script Editor** **Visual Studio Code**.
 
-![Preferences menu with Visual Studio Code chosen as the script editor.](images/unity-editor-select.png)
+![Preferences menu met Visual Studio Code gekozen als script editor.](images/unity-editor-select.png)
 
 --- /task ---
 
-Further information:
+Meer informatie:
 + [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
