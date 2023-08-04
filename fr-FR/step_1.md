@@ -1,42 +1,42 @@
-## Unity and Visual Studio Code
+## Unity et Visual Studio Code
 
-Unity uses the C# programming language, which is used by professional software developers. To write code for Unity you will need to add an external code editor.
+Unity utilise le langage de programmation C# qui est utilisé par les développeurs de logiciels professionnels. Pour écrire du code pour Unity, tu devras ajouter un éditeur de code externe.
 
-Many different code editors can be used, and Unity recommends the full Community edition of Visual Studio, however this requires another account.
+De nombreux éditeurs de code différents peuvent être utilisés, et Unity recommande l'édition Visual Studio Community, qui nécessite toutefois un autre compte.
 
-Instead we would recommend [Visual Studio Code](https://code.visualstudio.com/), a free lightweight code editor from Microsoft that you can use to write code in almost any language, including C# with Unity.
-
---- task ---
-
-Download and install [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
-
---- /task ---
-
-Once you install the Visual Studio code editor you can add functionality using **Extensions**.
-
-![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
-
-The two we recommend are:
-1. **C#** by Microsoft - this gives you code completion for the C# language
-2. **Unity Code Snippets** by Kleber Silva - will give you specific completions for Unity
-
-You can find these by opening the extensions menu is the left side bar (highlighted above) and typing the names into the search bar at the top, you can then click on the extension and click the blue **Install** button under the name.
+Nous te recommandons plutôt [Visual Studio Code](https://code.visualstudio.com/), un éditeur de code léger et gratuit de Microsoft que tu peux utiliser pour écrire du code dans presque tous les langages, y compris C# avec Unity.
 
 --- task ---
 
-Install the two recommended extensions, C# and Unity Code snippets.
+Télécharge et installe [Visual Studio Code](https://code.visualstudio.com/) pour ton système d'exploitation.
+
+--- /task ---
+
+Une fois que tu as installé l'éditeur de code Visual Studio, tu peux ajouter des fonctionnalités à l'aide des **Extensions**.
+
+![Dans la barre latérale de Visual Studio Code, le symbole de l'extension (un carré divisé en quatre parties, la partie supérieure gauche étant légèrement séparée) est mis en évidence, ainsi que deux extensions : C# et Unity Code Snippets.](images/VSCode-extensions.png)
+
+Les deux que nous recommandons sont :
+1. **C#** de Microsoft : cela te permet de compléter le code pour le langage C#
+2. **Unity Code Snippets** de Kleber Silva : il te donnera des compléments spécifiques pour Unity
+
+Tu peux les trouver en ouvrant le menu des extensions dans la barre latérale de gauche (surlignée ci-dessus) et en tapant les noms dans la barre de recherche en haut, tu peux ensuite cliquer sur l'extension et sur le bouton bleu **Install** sous le nom.
+
+--- task ---
+
+Installe les deux extensions recommandées, C# et Unity Code Snippets.
 
 --- /task ---
 
 --- task ---
 
-Open Unity. Click on **Edit** and then choose **Preferences** from the menu.
+Ouvre Unity. Clique sur **Edit** puis choisis **Preferences** dans le menu.
 
-In the menu on the left, select **External Tools** and in the drop-down menu for **External Script Editor** choose **Visual Studio Code**.
+Dans le menu de gauche, sélectionne **External Tools** et dans le menu déroulant de **External Script Editor**, choisis **Visual Studio Code**.
 
-![Preferences menu with Visual Studio Code chosen as the script editor.](images/unity-editor-select.png)
+![Menu des préférences avec Visual Studio Code choisi comme éditeur de script.](images/unity-editor-select.png)
 
 --- /task ---
 
-Further information:
+Informations complémentaires :
 + [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
