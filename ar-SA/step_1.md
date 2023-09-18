@@ -1,42 +1,42 @@
-## Unity and Visual Studio Code
+## الوحدة و شفرة الاستوديو المرئي
 
-Unity uses the C# programming language, which is used by professional software developers. To write code for Unity you will need to add an external code editor.
+الوحدة تستخدم لغة البرمجة C# التي يستخدمها مطورو البرمجيات المحترفون. لكتابة التعليمات البرمجية للوحدة، ستحتاج إلى إضافة محرر كود خارجي.
 
-Many different code editors can be used, and Unity recommends the full Community edition of Visual Studio, however this requires another account.
+يمكن استخدام العديد من محرري التعليمات البرمجية المختلفين، وتوصي وحدة الوحدة النسخة المجتمعية الكاملة من Visual Studio، ولكن هذا يتطلب حساب آخر.
 
-Instead we would recommend [Visual Studio Code](https://code.visualstudio.com/), a free lightweight code editor from Microsoft that you can use to write code in almost any language, including C# with Unity.
-
---- task ---
-
-Download and install [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
-
---- /task ---
-
-Once you install the Visual Studio code editor you can add functionality using **Extensions**.
-
-![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
-
-The two we recommend are:
-1. **C#** by Microsoft - this gives you code completion for the C# language
-2. **Unity Code Snippets** by Kleber Silva - will give you specific completions for Unity
-
-You can find these by opening the extensions menu is the left side bar (highlighted above) and typing the names into the search bar at the top, you can then click on the extension and click the blue **Install** button under the name.
+بدلاً من ذلك، نوصي بـ [Visual Studio Code](https://code.visualstudio.com/)، وهو محرر تعليمات برمجية مجاني خفيف الوزن من Microsoft يمكنك استخدامه لكتابة التعليمات البرمجية بأي لغة تقريبًا، بما في ذلك C# مع Unity.
 
 --- task ---
 
-Install the two recommended extensions, C# and Unity Code snippets.
+تنزيل وتثبيت [Visual Studio Code ](https://code.visualstudio.com/) لنظام التشغيل الخاص بك.
+
+--- /task ---
+
+عندما تثبت محرر الاستوديو المرئي، يمكنك إضافة لوظائف باستعمال الملحقات.
+
+![الشريط الجانبي من رمز الاستوديو البصري، رمز الملحق (مقسم مربع إلى 4 أقسام)، ويبرز الجزء العلوي اليساري المتقطع قليلاً، ويبرز جدولان إضافيان؛ ويسلط الضوء أيضا على كتل الكود C# وكتل الكود البرمجي للوحدة.](images/VSCode-extensions.png)
+
+أما الاثنان اللذان نوصي بهما فهما:
+1. C# من عند مايكروسوفت، هذا سوف يعطي اكتمال الشفرة للغة C#
+2. **مقتطفات رمز الوحدة** من كليبر سيلفا - ستمنحك إكمالات محددة للوحدة
+
+يمكنك العثور على هذه عن طريق فتح قائمة الملحقات هي الشريط الجانبي الأيسر (المحدد أعلاه) وكتابة الأسماء في شريط البحث في الأعلى, يمكنك بعد ذلك النقر على الملحق ثم انقر فوق الزر الأزرق **تثبيت** تحت الاسم.
+
+--- task ---
+
+قم بتثبيت الملحقين الموصى بهما، كتلة كتل الكود C# وكتلة الكود البرمجي.
 
 --- /task ---
 
 --- task ---
 
-Open Unity. Click on **Edit** and then choose **Preferences** from the menu.
+فتح الوحدة. انقر على تحرير ثم اختار التفضيلات من انقر على تحرير ثم اختار التفضيلات من القائمة.
 
-In the menu on the left, select **External Tools** and in the drop-down menu for **External Script Editor** choose **Visual Studio Code**.
+في القائمة على اليسار، حدد **الأدوات الخارجية** وفي القائمة المنسدلة ل **محرر النص الخارجي** اختر **Studio Code**.
 
-![Preferences menu with Visual Studio Code chosen as the script editor.](images/unity-editor-select.png)
+![قائمة التفضيلات مع شفرة الاستوديو المرئي مختار كمحرر للنص.](images/unity-editor-select.png)
 
 --- /task ---
 
-Further information:
+مزيد من المعلومات:
 + [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
