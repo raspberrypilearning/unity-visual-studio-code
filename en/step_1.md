@@ -10,7 +10,7 @@ Download and install [Visual Studio Code](https://code.visualstudio.com/) for yo
 
 Once you install the Visual Studio code editor you can add functionality using **Extensions**. 
 
-![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
+![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly separated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
 
 The two we recommend are: 
 1. **C#** by Microsoft - this gives you code completion for the C# language
