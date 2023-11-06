@@ -6,11 +6,7 @@ De nombreux éditeurs de code différents peuvent être utilisés, et Unity reco
 
 Nous te recommandons plutôt [Visual Studio Code](https://code.visualstudio.com/), un éditeur de code léger et gratuit de Microsoft que tu peux utiliser pour écrire du code dans presque tous les langages, y compris C# avec Unity.
 
---- task ---
-
 Télécharge et installe [Visual Studio Code](https://code.visualstudio.com/) pour ton système d'exploitation.
-
---- /task ---
 
 Une fois que tu as installé l'éditeur de code Visual Studio, tu peux ajouter des fonctionnalités à l'aide des **Extensions**.
 
@@ -22,21 +18,13 @@ Les deux que nous recommandons sont :
 
 Tu peux les trouver en ouvrant le menu des extensions dans la barre latérale de gauche (surlignée ci-dessus) et en tapant les noms dans la barre de recherche en haut, tu peux ensuite cliquer sur l'extension et sur le bouton bleu **Install** sous le nom.
 
---- task ---
-
 Installe les deux extensions recommandées, C# et Unity Code Snippets.
-
---- /task ---
-
---- task ---
 
 Ouvre Unity. Clique sur **Edit** puis choisis **Preferences** dans le menu.
 
 Dans le menu de gauche, sélectionne **External Tools** et dans le menu déroulant de **External Script Editor**, choisis **Visual Studio Code**.
 
 ![Menu des préférences avec Visual Studio Code choisi comme éditeur de script.](images/unity-editor-select.png)
-
---- /task ---
 
 Informations complémentaires :
 + [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
