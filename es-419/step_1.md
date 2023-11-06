@@ -1,42 +1,30 @@
-## Unity and Visual Studio Code
+## Unity y Visual Studio Code
 
-Unity uses the C# programming language, which is used by professional software developers. To write code for Unity you will need to add an external code editor.
+Unity usa el lenguaje de programación C#, el cual es usado por desarrolladores profesionales de programación. Para escribir códigos para Unity, vas a necesitar añadir un editor de códigos externo.
 
-Many different code editors can be used, and Unity recommends the full Community edition of Visual Studio, however this requires another account.
+Se puede utilizar distintos editores de código y Unity recomienda la edición completa de la Comunidad de Visual Studio, sin embargo, esto requiere de otra cuenta.
 
-Instead we would recommend [Visual Studio Code](https://code.visualstudio.com/), a free lightweight code editor from Microsoft that you can use to write code in almost any language, including C# with Unity.
+En lugar ello, recomendamos [Visual Studio Code](https://code.visualstudio.com/), un editor de códigos ligero de Microsoft que puedes usar para escribir códigos en casi cualquier lenguaje de programación, incluso C# con Unity.
 
---- task ---
+Descarga e instala [Visual Studio Code](https://code.visualstudio.com/) para tu sistema operativo.
 
-Download and install [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
+Una vez que instales el editor de código Visual Studio, puedes agregar funciones usando **Extensiones**.
 
---- /task ---
+![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly separated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
 
-Once you install the Visual Studio code editor you can add functionality using **Extensions**.
+Las dos que recomendamos son:
+1. **C#** de Microsoft, la cual te ofrece la terminación del código del lenguaje de programación C#
+2. **Unity Code Snippets** de Kleber Silva, la cual te ofrece terminaciones específicas para Unity
 
-![The sidebar of visual studio code, the extension symbol (a square split into 4 sections, with the top left being slightly seperated) is highlighted, and two extensions; C# and Unity Code snippets are also highlighted.](images/VSCode-extensions.png)
+Puedes encontrarlos abriendo el menú de extensiones en el panel lateral (resaltado arriba) y escribiendo los nombres en la barra de búsqueda en la parte superior, luego puedes hacer clic en la extensión y en el botón azul **Instalar** debajo del nombre.
 
-The two we recommend are:
-1. **C#** by Microsoft - this gives you code completion for the C# language
-2. **Unity Code Snippets** by Kleber Silva - will give you specific completions for Unity
+Instala las dos extensiones recomendadas: C# y Unity Code Snippets.
 
-You can find these by opening the extensions menu is the left side bar (highlighted above) and typing the names into the search bar at the top, you can then click on the extension and click the blue **Install** button under the name.
+Abre Unity. Haz clic en **Editar** y luego elige **Preferencias** en el menú.
 
---- task ---
+En el menú de la izquierda, selecciona **Herramientas Externas** y en el menú desplegable de **Editor Externo de Script** elige **Visual Studio Code**.
 
-Install the two recommended extensions, C# and Unity Code snippets.
+![Menú de preferencias con Visual Studio Code elegido como el editor de Script.](images/unity-editor-select.png)
 
---- /task ---
-
---- task ---
-
-Open Unity. Click on **Edit** and then choose **Preferences** from the menu.
-
-In the menu on the left, select **External Tools** and in the drop-down menu for **External Script Editor** choose **Visual Studio Code**.
-
-![Preferences menu with Visual Studio Code chosen as the script editor.](images/unity-editor-select.png)
-
---- /task ---
-
-Further information:
+Información adicional:
 + [Unity tutorial: Set your default script editor](https://learn.unity.com/tutorial/set-your-default-script-editor-ide){:target="_blank"}
